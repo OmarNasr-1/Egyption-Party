@@ -1,0 +1,270 @@
+#home {
+    background-image: url(photos/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+    height: 100vh;
+}
+
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(180, 62, 66, 0.6);
+
+}
+
+#home h2 {
+    margin-top: 200px;
+}
+
+#home h2,
+p {
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 69px;
+    border: 1px solid black;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+}
+
+
+.sidenav {
+    background-color: #D62E33;
+}
+
+
+
+.sidenav a {
+    margin-top: 2rem;
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+
+}
+
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 38%;
+    right: 5;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 5px;
+    border: none;
+}
+
+#home-content {
+    padding: 16px;
+}
+
+#home-content h2 {
+    font-size: 100px;
+}
+
+#home-content p {
+    font-size: 30px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+#pop-up {
+
+    margin: 100px auto;
+    width: 60%;
+}
+
+#pop-up h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 6px 5px rgba(214, 46, 51, 0.6);
+
+}
+
+#pop-up div {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+#countsec {
+    background-image: url(photos/invitation-2508607__340.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+.container {
+    padding: 20px 0px;
+}
+
+.tim {
+    padding: 5px;
+    border: 1px solid #FFF;
+    border-radius: 20rem;
+    margin-top: .9rem;
+    box-shadow: 5px 5px rgba(214, 46, 51, 0.6);
+
+}
+
+
+
+#hire-me {
+    margin-top: 100px;
+}
+
+#hire-me .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hire-me .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#hire-me .con-info h3 {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#hire-me .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: left;
+    width: 390px;
+
+}
+
+#hire-me .icons {
+    margin-top: 50px;
+}
+
+#hire-me .icons p {
+    margin-bottom: 35px;
+}
+
+#hire-me i {
+    margin-right: 20px;
+    color: #777;
+}
+
+#hire-me .red {
+    color: #D62E33 !important;
+}
+
+
+#hire-me .con-info .con-social {
+    margin-top: 60px;
+    color: #777;
+    margin-bottom: 50px;
+
+}
+
+#hire-me .con-info .con-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#hire-me .con-info .con-social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: 0 0 0 .25rem rgba(253, 45, 18, 0.25);
+}
+
+#hire-me form input {
+    margin-bottom: 20px;
+    border-radius: 20rem;
+}
+
+#hire-me form textarea {
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+
+#hire-me form textarea {
+    height: 200px;
+    resize: both;
+}
+
+#hire-me form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 1.1rem;
+    text-transform: uppercase
+}
+
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
